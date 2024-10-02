@@ -5,8 +5,8 @@ header("Access-Control-Allow-Headers: Content-Type");
 header("Access-Control-Max-Age: 3600");
 
 // Configura tus credenciales de Mercado Pago
-$accessToken = 'TEST-7850621271605520-081016-711263f40f701065b896974a2443a10d-653662904'; // Reemplaza con tu Access Token de Mercado Pago
-$apiEndpoint = 'https://api.mercadopago.com/checkout/preferences'; // Endpoint para crear preferencias
+$accessToken = 'APP_USR-7850621271605520-081016-8397c0dbd1c1240f73ca3db7c27bb579-653662904'; // Reemplaza con tu Access Token de Mercado Pago
+$apiEndpoint = 'https://api.mercadopago.com/checkout/preferences'; // Endpoint correcto para crear preferencias
 
 // Recibe el monto desde la solicitud
 $amount = isset($_POST['amount']) ? $_POST['amount'] : '0';
